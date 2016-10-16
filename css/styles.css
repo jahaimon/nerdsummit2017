@@ -36,7 +36,7 @@ body {
 .menu-links,
 .menu-links:focus {
     color: #272223;
-    font-size: 16px;
+    font-size: 20px;
 }
 .menu-links:hover {
     color: #ffaf00;
