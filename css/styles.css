@@ -36,8 +36,7 @@ body {
     float: right;
     margin-right: 50px;
 }
-.menu-links,
-.menu-links:focus {
+.menu-links {
     color: #272223;
     font-size: 20px;
 }
@@ -174,4 +173,9 @@ footer {
 .social-icon {
     margin-right: 20px;
     margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+    .main-menu {
+        display: none;
+    }
 }
