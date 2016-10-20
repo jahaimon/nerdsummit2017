@@ -26,8 +26,7 @@
     #hamburger:checked ~ .mobile-menu .menu {
         transform: perspective(600px) rotateX(0deg) translateY(0);
         opacity: 1;
-        display: block;
-        pointer-events: all;
+        visibility: visible;
     }
     .mobile-menu {
         display: block;
@@ -43,9 +42,9 @@
         top: 200px;
         position: relative;
         opacity: 0;
-        transition: 0.2s, 0.5s, ease-in-out;
+        transition: 0.2s, 0.5s, transform, opactiy, ease-in-out;
         transform: perspective(600px) rotateX(35deg) translateY(-50%);
-        pointer-events: none;
+        visibility: hidden;
     }
 
     .mobile-menu li {
