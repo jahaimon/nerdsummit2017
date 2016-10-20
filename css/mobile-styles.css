@@ -27,6 +27,7 @@
         transform: perspective(600px) rotateX(0deg) translateY(0);
         opacity: 1;
         visibility: visible;
+        pointer-events: all;
     }
     .mobile-menu {
         display: block;
@@ -45,6 +46,7 @@
         transition: 0.2s, 0.5s, transform, opactiy, ease-in-out;
         transform: perspective(600px) rotateX(35deg) translateY(-50%);
         visibility: hidden;
+        pointer-events: none;
     }
 
     .mobile-menu li {
