@@ -179,3 +179,21 @@ footer {
         display: none;
     }
 }
+
+.sessions {
+    max-width: 900px;
+    margin: 27px auto 0;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -0.4px;
+}
+.sessions-section h2.section-header {
+    font-size: 72px;
+    letter-spacing: -3.5px;
+    margin-top: 48px;
+    color: #6e11cc;
+}
+.sessions h3 {
+    line-height: normal;
+    color: #6e11cc;
+}
