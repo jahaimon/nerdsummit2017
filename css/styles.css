@@ -197,8 +197,28 @@ footer {
 .sessions h3 {
     line-height: normal;
     color: #6e11cc;
+    font-size: 2rem;
+}
+.sessions h3.day {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: #6e11cc;;
+    color: #FFF;
+    margin-bottom: 30px;
 }
 .sessions h4 {
     line-height: normal;
     color: #000000;
+}
+.sessions time {
+    display: block;
+    width: 50%;
+    margin: auto;
+    line-height: normal;
+    font-size: 2rem;
+    background-color: #50a83e;
+    color: #FFF;
+    margin-bottom: 20px;
 }
